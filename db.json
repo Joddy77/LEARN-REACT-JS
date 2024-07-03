@@ -1,0 +1,17 @@
+{
+    "wishilist-items": [
+        {
+            "id": 1,
+            "name": "Coding"
+        },
+        {
+            "id": 2,
+            "name": "Makan"
+        },
+        {
+            "id": 3,
+            "name": "Mandi"
+        }
+    ],
+    "users": []
+}
