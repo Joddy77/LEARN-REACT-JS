@@ -1,0 +1,14 @@
+# Mengatur file teks untuk menggunakan LF
+*.json text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+
+# Mengatur file biner untuk tidak mengubah line endings
+*.png binary
+*.jpg binary
+*.gif binary
