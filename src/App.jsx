@@ -1,14 +1,13 @@
-import SignUpPage from "./Pages/SignUpPage";
-import WishlistPage from "./Pages/WishlistPage";
-import { Toaster } from 'sonner'
+import TodoCard from "./components/TodoCard";
+import Footer from "./components/Footer"
 
 function App() {
-  //  return <SignUpPage />
   return (
-    <>
-      <Toaster position="top"/>
-      <WishlistPage />
-    </>
+    <main className="p-4">
+      <TodoCard day="Tuesday" numberOfActivities={5} />
+      
+      <Footer message="Hello footer"/>
+    </main>
   );
 }
 
